@@ -12,7 +12,7 @@ public class Web {
 	
 	private static WebDriver driver;
 	
-	private WebDriver invokeChromeDriver() throws IOException {
+	private WebDriver invokeChromeDriver() throws IOException, InterruptedException {
 		
 		System.out.println("hello web");
 		System.setProperty("webdriver.chrome.driver", new Util().getEnvDetailsProperties().getProperty("chromeDriverPath"));
@@ -20,12 +20,13 @@ public class Web {
 		String url = new Util().getEnvDetailsProperties().getProperty("url");
 		System.out.println("url is: " + url);
 		driver.manage().window().maximize();
+		Thread.sleep(2000);
 		driver.get(url);
 		
 		return driver;
 	}
 	
-	public static void setDriver() throws IOException {
+	public static void setDriver() throws IOException, InterruptedException {
 		
 		driver = new Web().invokeChromeDriver();
 	}
