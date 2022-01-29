@@ -11,7 +11,7 @@ public class CreateReport {
 	
 	public void initialiseReport(){
 		
-		report = new ExtentReports(System.getProperty("user.dir")+"//report//ExtentReportResults.html");
+		report = new ExtentReports("./test-output/ExtentReportResults.html");
 		
 	}
 	
