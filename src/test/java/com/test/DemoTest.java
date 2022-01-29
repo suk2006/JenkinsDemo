@@ -28,7 +28,7 @@ public class DemoTest extends ManageTestSuites{
 			System.out.println("Hello World");
 			
 			//web.wait(driver.findElement(By.xpath("//input[@type='text']")));		
-			Web.getDriver().findElement(By.xpath("//input[@id='identifierId1']")).sendKeys("abc");
+			Web.getDriver().findElement(By.xpath("//input[@id='identifierId']")).sendKeys("abc");
 			CreateReport.test.log(LogStatus.PASS, "Entering string in gmail");
 			Thread.sleep(2000);			
 			

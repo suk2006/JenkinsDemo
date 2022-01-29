@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-29T10:42:29 IST" name="Default suite" finished-at="2022-01-29T10:42:49 IST" duration-ms="20431">
+  <suite started-at="2022-01-29T11:56:09 IST" name="Default suite" finished-at="2022-01-29T11:56:27 IST" duration-ms="17504">
     <groups>
     </groups>
-    <test started-at="2022-01-29T10:42:29 IST" name="Default test" finished-at="2022-01-29T10:42:49 IST" duration-ms="20431">
+    <test started-at="2022-01-29T11:56:09 IST" name="Default test" finished-at="2022-01-29T11:56:27 IST" duration-ms="17504">
       <class name="com.test.DemoTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.DemoTest@24fcf36f]" started-at="2022-01-29T10:42:28 IST" name="beforeSuite" finished-at="2022-01-29T10:42:29 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.DemoTest@24fcf36f]" started-at="2022-01-29T11:56:09 IST" name="beforeSuite" finished-at="2022-01-29T11:56:09 IST" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="demo()[pri:0, instance:com.test.DemoTest@24fcf36f]" started-at="2022-01-29T10:42:29 IST" name="demo" finished-at="2022-01-29T10:42:49 IST" duration-ms="20391" status="PASS">
+        <test-method signature="demo()[pri:0, instance:com.test.DemoTest@24fcf36f]" started-at="2022-01-29T11:56:09 IST" name="demo" finished-at="2022-01-29T11:56:27 IST" duration-ms="17455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.DemoTest@24fcf36f]" started-at="2022-01-29T10:42:49 IST" name="afterSuite" finished-at="2022-01-29T10:42:50 IST" duration-ms="607" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.DemoTest@24fcf36f]" started-at="2022-01-29T11:56:27 IST" name="afterSuite" finished-at="2022-01-29T11:56:27 IST" duration-ms="535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
